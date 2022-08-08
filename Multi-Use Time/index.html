@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title>Multi-Use Timing</title>
+        <meta charset="uft-8">
+        <meta name="Leonardo de Lira" content="">
+        <meta name="description" content="Estudos Web Design">
+        <meta name="keywords" content="html5, css3, webdesign,frontend">
+
+        <link rel="stylesheet" href="css\formatacao.css">       <!-- Importação do arquivo CSS do projeto -->
+
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>      <!-- Importação da fonte utilizada tanto no relógio quanto no cronômetro -->
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <h1 class="menu-title">Multi-Use Timing</h1>
+                <nav class="menu-nav">
+                    <ul class = "menu-list">
+                        <button class="button-clock button-menu"><li>Relógio</li></button>              <!-- Botões utilizados como menus para escolha na função desejada pelo usuário -->
+                        <button class="button-cronometer button-menu"><li> Cronômetro</li></button>
+                    </ul>
+                </nav>
+            </header>
+
+            <main class="principal-clock">
+                <h1 class="time"><div>00:00:00</div></h1>       <!-- Display utilizado tanto no relógio quanto no cronômetro para mostrar os valores de tempo -->
+                <div class="date">00/00/00</div>                <!-- Display utilizado no relógio para mostrar data atual -->
+            </main>
+
+            <main class="principal-cronometer">
+                <button class="iniciar">Iniciar</button>
+                <button class="pausar">Pausar</button>      <!-- Botões utilizados no cronômetro -->
+                <button class="parar">Parar</button>
+            </main>
+
+            <footer>
+                Bons Estudos :)
+            </footer>
+
+            <script src="Javascript/clock.js"></script>             <!-- Importação dos arquivos Javascript do projeto -->
+            <script src="Javascript/cronometer.js"></script>
+
+        </div>   
+    </body>
+</html>

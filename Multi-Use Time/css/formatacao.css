@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    background-image: linear-gradient(to left bottom,black,rgb(212,175,55));
+    background-attachment: fixed;
+
+    font-family: 'Garamond', 'Times New Roman', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 4em;
+
+    color: rgb(165, 165, 165);
+}
+footer{
+    margin-top: 400px;
+    width: 100%;
+    padding: 50px;
+
+    background-color: black;
+    color: rgb(95, 95, 194);
+
+    box-shadow: 500px 500px yellow;
+
+    text-align: center;
+    font-size: 1.7em;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.menu-list{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+}
+.menu-list li{
+    margin: 0 -3px;
+    padding: 10px; 
+
+    background-color: rgb(104, 30, 119);
+    border: solid white 1px;
+
+    list-style: none;
+    
+    text-align: center;
+}
+.menu-title{
+    margin-top: 0;
+
+    color: rgb(168, 10, 126);
+
+    background-color: black;
+}
+.button-menu{
+    margin-right: -7px;
+
+    background: none;
+    border: none;
+
+    color: rgb(235, 162, 216);
+}
+button:hover{
+    opacity: 0.6;
+}
+
+.principal-clock{
+    width: 17%;
+    margin: 0 auto;
+
+    text-align: center;
+}
+.principal-cronometer{
+    display: flex;
+    
+    justify-content: center;
+}
+
+
+.iniciar, .pausar, .parar{
+    padding: 10px;
+
+    display: none;
+    
+    margin-top: 150px;
+
+    color: rgb(235, 162, 216);
+    background-color: rgb(104, 30, 119);
+    border: solid white 1px; 
+}
+.time{
+    height: 200px;
+    padding: 45px;
+
+    background-image: linear-gradient(to bottom left, black, rgba(69, 69, 73, 0.952));
+    border-radius: 50%;
+    border: solid rgb(0, 0, 0) 5px;
+
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.4em;  
+}
+.time div{
+    padding: 7px;
+
+    background-color: black;
+    border-radius: 10%;  
+}
+.date{
+    margin-top: -150px;
+
+    color: rgb(165, 179, 218);
+
+    font-size: 2.5em;   
+}
+.tasks{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
